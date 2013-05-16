@@ -184,8 +184,8 @@ static struct map_desc msmzirc_io_desc[] __initdata = {
 #endif
 };
 
-void __init msm_map_msmzirc_io(void)
+void __init msm_map_8974_io(void)
 {
-	iotable_init(msmzirc_io_desc, ARRAY_SIZE(msmzirc_io_desc));
+	iotable_init(msm_8974_io_desc, ARRAY_SIZE(msm_8974_io_desc));
 }
-#endif /* CONFIG_ARCH_MSMZIRC */
+#endif /* CONFIG_ARCH_MSM8974 */
