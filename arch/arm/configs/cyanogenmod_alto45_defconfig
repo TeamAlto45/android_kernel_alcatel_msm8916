@@ -1,3 +1,16 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# Linux/arm 3.10.49 Kernel Configuration
+#
+
+#
+# General setup
+#
+CONFIG_CROSS_COMPILE=""
+CONFIG_LOCALVERSION="-Cyanogenmod"
+CONFIG_LOCALVERSION_AUTO=y
+
+#
 # CONFIG_ARM_PATCH_PHYS_VIRT is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
